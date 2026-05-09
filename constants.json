@@ -1,0 +1,55 @@
+{
+	"chunkVariants": 
+    {
+        "NESW": 6,
+        "NEW": 4,
+        "NES": 3,
+        "NSW": 3,
+        "ESW": 4,
+        "NE": 2,
+        "NW": 2,
+        "SW": 2,
+        "ES": 2,
+        "EW": 2,
+        "NS": 2,
+        "W": 2,
+        "E": 2,
+        "S": 2,
+        "N": 2,
+
+        "conveyor_NS": 1,
+        "conveyor_NES": 1,
+        "conveyor_NSW": 2,
+        "conveyor_NESW": 1,
+        "conveyor_N": 1
+    },
+
+    "rules":
+    {
+        "monster":
+        [
+            "see",
+            "hear",
+            "smell",
+            "duplicate",
+            "reach"
+        ],
+
+        "you":
+        [
+            "starve",
+            "freeze"
+        ]
+    },
+
+    "tips":
+    [
+        {"rule": "monster.see", "msg": "If Cobb can see, hide in the dark..."},
+        {"rule": "monster.smell", "msg": "Listen carefully for Cobb's sniffing. It gets stronger the closer he is..."},
+        {"rule": "monster.smell", "msg": "There is no way to avoid being smelled. Try and keep distance..."},
+        {"rule": "monster.hear", "msg": "Breakers can be heard from across the map..."},
+        {"rule": "monster.hear", "msg": "Rocks can make a distraction if Cobb can hear..."},
+        {"rule": "you.starve", "msg": "Don't worry, carrots respawn."},
+        {"rule": "you.freeze", "msg": "Bring a candle with you to avoid freezing..."}
+    ]
+}
